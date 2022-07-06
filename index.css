@@ -1,0 +1,108 @@
+
+.good{
+    color:rgb(53, 146, 51);
+    text-transform: uppercase;
+}
+.bad{
+    color:red;
+    text-transform: uppercase;
+}
+p{
+    line-height: 1.7;
+    font-size: 16px;
+    color:rgb(20, 19, 19);
+}
+a{
+    color: rgb(35, 73, 223);
+    font-size: 16px;
+    font-weight: bold;
+}
+a:hover{
+    color:red;
+}
+a:visited{
+    color:purple;
+    font-weight: normal;
+}
+body{
+    width: 90%;
+    margin: 50px 50px 50px 50px;
+    background: linear-gradient(#FFFFFF, #F9E6AD);
+    background-image: url('lighpink.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+figcaption{
+    font-size: 80%;
+    margin-left: 20px;
+}
+blockquote{
+    margin: auto;
+    width: 50%;
+    font-size: 160%;
+    background-color: rgb(230, 230, 230);
+    border-left: solid 3px firebrick;
+    padding:0px 0px 0px 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    line-height: 1.2;
+}
+.quote{
+    font-style: italic;
+}
+.villagers{
+    border-left: solid 3px rgb(178, 34, 156);
+    font-style: italic;
+    quotes: none;
+}
+.farmer{
+    border-left: solid 3px rgb(34, 178, 137);
+    font-style: italic;
+    quotes: none;
+}
+header > h1{
+    background-color: rgb(242, 242, 130);
+}
+tr:nth-child(even) {
+    background: rgb(255, 255, 255)
+}
+tr:nth-child(odd) {
+    background: rgb(193, 192, 192)}
+li:first-child{
+    background: url('bien.png');
+    background-size: contain;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+li:nth-child(2){
+    background: url('mal.png');
+    background-size: contain;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+li:nth-child(3){
+    background: url('chat.png');
+    background-size: contain;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+}
+/* à VOIR!!!!*/
+p:nth-child(1){
+    font-weight: bold;
+    color: blue;
+}
+img:first-of-type{
+    float: right;
+    padding: 30px;
+    position:relative;
+}
+figure:first-child{
+    float: left;
+    padding: 30px;
+    position:relative;
+}
+h3{
+    clear:both;
+}
